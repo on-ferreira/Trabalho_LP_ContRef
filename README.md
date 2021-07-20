@@ -11,3 +11,5 @@ Na função atrib2 fazemos com que a direção do segundo elemento mude e atuali
 A linguagem utilizada foi C e o removedor de lixo foi programado para atuar em C.
 
 Escolhemos ignorar os warnings do compilador sobre os paramêtros das funções visto que o programa executa a função pretendida.
+
+Edit: Adicionamos o arquivo contref.a que é a biblioteca estática que contém os arquivos contref.c e contref.h mostrados no repositório
