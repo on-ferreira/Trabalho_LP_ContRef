@@ -36,11 +36,10 @@ Contador *Ct0(Contador* h, Contador *aux, Contador *prim){
 void atualizaREFs(void *locala, int x){
   Contador*aux = heap;
   while (aux!=NULL){
-      if(aux->localnoheap == locala)
-          aux->ct = aux->ct+x; 
+      if(aux->localnoheap == locala){
       if(aux->ct==0)
         heap = Ct0(heap,heap->prox,heap);
-      break;
+   break;}
     aux = aux->prox;
   }
 }
